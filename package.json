@@ -1,7 +1,29 @@
 {
-  "name": "qDesignSystem",
-  "private": true,
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  }
+    "name": "qdesignsystem",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "bootstrap": "lerna bootstrap --hoist",
+        "export:next-app": "lerna run --scope @im-mou/next-app --stream export",
+        "package:next-app": "lerna run --scope @im-mou/next-app --stream start",
+        "dev": "lerna run --scope @im-mou/next-app --stream dev",
+        "start": "run-p --print-label package:*",
+        "build": "lerna run --parallel build",
+        "export": "yarn build && yarn export:next-app",
+        "test": "lerna run test --stream",
+        "prepare": "husky install",
+        "lint": "lerna run lint"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.21",
+        "eslint": "^8.10.0",
+        "lerna": "^4.0.0",
+        "prettier": "^2.5.1",
+        "pretty-quick": "^3.1.3",
+        "ts-node": "^10.6.0",
+        "typescript": "^4.6.2",
+        "husky": "^7.0.0"
+    }
 }
