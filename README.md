@@ -34,9 +34,11 @@ npm install @material-ui/lab
 ```
 
 ### qDesign as Git Submodule
-To have more design customization flexibility in your laravel app you can add qDesign repository as a submodule and use the source *.sass file in laravel mix to compile it with you app bundle.
+
+To have more design customization flexibility in your laravel app you can add qDesign repository as a submodule and use the source \*.sass file in laravel mix to compile it with you app bundle.
 
 ### Setup qDesign into laravel project
+
 ```bash
 cd laravel_app/resources/
 
@@ -46,8 +48,10 @@ git submodule update
 ```
 
 ## Theme configuration
+
 If you decide to use qDesign in a react project make sure to add our custom theme rules to your root/App compoenent
 Filename: resources/js/App.js
+
 ```jsx
 import React from 'react';
 import Qdesign from './qDesign';
@@ -73,9 +77,11 @@ In order to use qDesign in HTML you must first download source files and include
 ```
 
 ### Use SASS in Laravel app
+
 Alternatively, if you decide to use .sass source files in your app yoou can use the following code.
 
 app.sass
+
 ```scss
 // laravel_app/resources/sass/app.sass
 
@@ -85,7 +91,9 @@ app.sass
 // Your app sass entry file
 @import './my_app/main';
 ```
+
 webpack.mix.js
+
 ```javascript
 // laravel_app/webpack.mix.js
 
@@ -109,6 +117,7 @@ npm run uncompressed
 ```
 
 ## What's included
+
 Project structure (comming soon)
 
 ```txt
