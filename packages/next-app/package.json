@@ -1,6 +1,6 @@
 {
     "name": "@im-mou/next-app",
-    "version": "0.0.0",
+    "version": "0.1.0-alpha.0",
     "description": "qDesignSystem NextJS app",
     "author": "Mohsin Riaz",
     "scripts": {
@@ -10,7 +10,7 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@im-mou/qdesign-system-legacy": "^0.0.0",
+        "@im-mou/qdesign-system-legacy": "^0.1.0-alpha.0",
         "next": "12.1.0",
         "prismjs": "^1.27.0",
         "react": "17.0.2",
