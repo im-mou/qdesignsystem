@@ -1,6 +1,9 @@
 {
     "name": "@im-mou/qdesignsystem",
     "private": true,
+    "version": "0.0.0",
+    "author": "Mohsin Riaz",
+    "description": "Design system / frontend UI library for qGenomics products",
     "workspaces": [
         "packages/*"
     ],

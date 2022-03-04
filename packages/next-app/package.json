@@ -3,7 +3,6 @@
     "version": "0.0.0",
     "description": "qDesignSystem NextJS app",
     "author": "Mohsin Riaz",
-    "private": true,
     "scripts": {
         "dev": "next dev",
         "build": "next build",
