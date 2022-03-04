@@ -1,5 +1,5 @@
 {
-    "name": "qdesignsystem",
+    "name": "@im-mou/qdesignsystem",
     "private": true,
     "workspaces": [
         "packages/*"

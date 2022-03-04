@@ -1,0 +1,42 @@
+{
+    "HOME": {
+        "link": "/",
+        "title": "Overview"
+    },
+    "COLORS": {
+        "link": "/colors",
+        "title": "Colors"
+    },
+    "TYPOGRAPHY": {
+        "link": "/typography",
+        "title": "Typography"
+    },
+    "BUTTONS": {
+        "link": "/buttons",
+        "title": "Buttons"
+    },
+    "FORMS": {
+        "link": "/forms",
+        "title": "Forms"
+    },
+    "MENUS": {
+        "link": "/menus",
+        "title": "Menus"
+    },
+    "NAVEGATION": {
+        "link": "/navegation",
+        "title": "Navegation"
+    },
+    "FEEDBACK": {
+        "link": "/feedback",
+        "title": "Feedback"
+    },
+    "LISTS": {
+        "link": "/lists",
+        "title": "Lists"
+    },
+    "TABELS": {
+        "link": "/tables",
+        "title": "Tables"
+    }
+}
